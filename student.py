@@ -532,8 +532,7 @@ class Student:
                 conn.close()
 
 
-                ################ Load predefined data on face frontals from opwn cv
-
+                ##################### Taking pictures for face detection from opencv #######################
                 face_classifier = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
                 def face_cropped(img):
